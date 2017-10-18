@@ -1,0 +1,30 @@
+.container{
+	margin: 10%;
+	overflow: hidden;
+}
+.panel{
+	float: left;
+}
+.tab{
+	margin-left: 50px;
+	display: inline-block;
+}
+.tab input{
+	display: block;
+	margin-bottom: 10px;
+}
+tr{
+	transition: all .2s ease-in-out;
+}
+tr:hover{
+	background: #EEE;
+	cursor: pointer;
+}
+.selected{
+	background: #ccc;
+	color: black;
+	font-style: italic;
+}
+.btn-success{
+	margin: 1%;
+}
